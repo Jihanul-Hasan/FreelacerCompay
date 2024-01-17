@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SignupController">
+   <children>
+      <TextField fx:id="emailfx" layoutX="275.0" layoutY="118.0" />
+      <Label layoutX="157.0" layoutY="122.0" text="Enter Email" />
+      <TextField fx:id="passwordfx" layoutX="275.0" layoutY="164.0" />
+      <Label layoutX="150.0" layoutY="168.0" text="Enter Password" />
+      <Label layoutX="240.0" text="SignUp" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="271.0" layoutY="324.0" mnemonicParsing="false" onAction="#SignUpOnClick" prefHeight="39.0" prefWidth="98.0" style="-fx-background-color: red;" text="Signup" />
+      <ComboBox fx:id="comboboxfx" layoutX="245.0" layoutY="272.0" onAction="#combobox" prefWidth="150.0" promptText="Signup As" />
+      <DatePicker fx:id="dobfx" layoutX="275.0" layoutY="208.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="157.0" layoutY="212.0" text="Date of Birth" />
+      <TextField fx:id="namefx" layoutX="274.0" layoutY="70.0" />
+      <Label layoutX="159.0" layoutY="74.0" text="Enter Name" />
+      <Button layoutX="510.0" layoutY="26.0" mnemonicParsing="false" onAction="#logInUIonClick" prefHeight="25.0" prefWidth="67.0" text="Login" />
+   </children>
+</AnchorPane>

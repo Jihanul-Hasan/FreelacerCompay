@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="501.0" prefWidth="669.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="Controllers.CustomerDashBoardController">
+   <children>
+      <HBox layoutX="-1.0" prefHeight="72.0" prefWidth="478.0" style="-fx-background-color: white;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#CustomerUI1onClick" text="Post Work " textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <HBox prefHeight="72.0" prefWidth="54.0" />
+            <Button mnemonicParsing="false" onAction="#CustomerUI2onClick" text="Message">
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Button>
+            <HBox prefHeight="72.0" prefWidth="58.0" />
+            <Button mnemonicParsing="false" onAction="#CustomerUI3onClick" text="Profile">
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Button>
+            <HBox prefHeight="72.0" prefWidth="68.0" />
+            <Button mnemonicParsing="false" onAction="#CustomerUI4onClick" text="View All Post">
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Button layoutX="556.0" layoutY="23.0" mnemonicParsing="false" onAction="#LogOutOnClick" style="-fx-background-color: #ff8f99;" text="LogOut" />
+      <BorderPane fx:id="BorderPanefx" layoutX="14.0" layoutY="97.0" prefHeight="397.0" prefWidth="641.0" />
+   </children>
+</AnchorPane>

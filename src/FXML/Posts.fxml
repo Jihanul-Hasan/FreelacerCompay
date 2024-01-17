@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b5f3ff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PostController">
+   <children>
+      <GridPane fx:id="gridefx" layoutX="14.0" layoutY="23.0" prefHeight="372.0" prefWidth="574.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="221.33331298828125" minWidth="10.0" prefWidth="212.66666666666666" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="279.6666564941406" minWidth="10.0" prefWidth="178.66666666666666" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="256.3333740234375" minWidth="10.0" prefWidth="183.33335367838538" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="164.0" minHeight="10.0" prefHeight="156.66665649414062" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="151.3333435058594" minHeight="0.0" prefHeight="127.33334350585938" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="107.33333333333331" minHeight="0.0" prefHeight="87.66665649414062" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+   </children>
+</AnchorPane>

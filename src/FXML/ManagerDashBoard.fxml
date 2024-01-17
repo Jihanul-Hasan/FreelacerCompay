@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="481.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ManagerDashBoardController">
+   <children>
+      <HBox layoutX="225.0" layoutY="14.0" prefHeight="35.0" prefWidth="202.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="105.0" text="Manager">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="NameLabelFx" prefHeight="17.0" prefWidth="105.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox layoutX="41.0" prefHeight="400.0" prefWidth="97.0">
+         <children>
+            <VBox prefHeight="81.0" prefWidth="97.0" />
+            <Button mnemonicParsing="false" onAction="#LoadUI1OnClick" text="Make Pie" />
+            <VBox prefHeight="69.0" prefWidth="97.0" />
+            <Button mnemonicParsing="false" onAction="#ShowMessageUiOnClick" text="Messages" />
+            <VBox prefHeight="67.0" prefWidth="97.0" />
+            <Button mnemonicParsing="false" onAction="#SendMessageUIonClick" text="Send Message" />
+         </children>
+      </VBox>
+      <BorderPane fx:id="BorderPaneFx" layoutX="138.0" layoutY="53.0" prefHeight="392.0" prefWidth="517.0" style="-fx-background-color: #aac8f3;" />
+      <Button layoutX="599.0" layoutY="19.0" mnemonicParsing="false" onAction="#LogOutOnClick" text="LogOut" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="453.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CeoDashBoardController">
+   <children>
+      <MenuBar fx:id="menufx" layoutX="30.0" layoutY="43.0" prefHeight="29.0" prefWidth="57.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="View">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ReportUIonClick" text="Reports" />
+                  <MenuItem mnemonicParsing="false" onAction="#MessageUiOnClick" text="Messages" />
+                  <MenuItem mnemonicParsing="false" onAction="#AllEmployeeOnClick" text="Employees" />
+                  <MenuItem mnemonicParsing="false" onAction="#PostUIonClick" text="Post" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <MenuBar fx:id="menufx1" layoutX="30.0" layoutY="149.0" prefHeight="29.0" prefWidth="83.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Products">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#CoursesOnClick" text="Courses" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <BorderPane fx:id="BorderPaneFx" layoutX="144.0" layoutY="45.0" prefHeight="395.0" prefWidth="523.0" style="-fx-background-color: #bd89ff;" />
+      <Button layoutX="647.0" layoutY="14.0" mnemonicParsing="false" onAction="#LogOutOnClick" text="LogOut" />
+   </children>
+</AnchorPane>

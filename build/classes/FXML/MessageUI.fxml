@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="328.0" prefWidth="263.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="Controllers.MessageUIController">
+   <children>
+      <TextField fx:id="messagefx" layoutX="57.0" layoutY="118.0" prefHeight="76.0" prefWidth="149.0" promptText="Type message" />
+      <Button layoutX="57.0" layoutY="242.0" mnemonicParsing="false" onAction="#sendMessageOnClick" text="Send" />
+      <TextField fx:id="recieverfx" layoutX="57.0" layoutY="76.0" promptText="to" />
+   </children>
+</AnchorPane>

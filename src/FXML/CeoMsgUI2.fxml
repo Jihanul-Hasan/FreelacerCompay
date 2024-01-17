@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="411.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CeoMsgUIController">
+   <children>
+      <TableView fx:id="tableView" layoutX="21.0" layoutY="9.0" prefHeight="396.0" prefWidth="523.0" style="-fx-background-color: #79fff3;">
+        <columns>
+          <TableColumn fx:id="nameCollumnFx" prefWidth="150.66665649414062" text="Sender" />
+          <TableColumn fx:id="messageColumnFx" minWidth="0.0" prefWidth="174.0" text="Message" />
+            <TableColumn fx:id="DateColumnFx" minWidth="0.0" prefWidth="174.0" text="date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
